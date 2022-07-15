@@ -15,6 +15,8 @@ namespace DllJenkin
             Console.WriteLine(m.Add(n1, n2));
 
             Console.WriteLine(m.Mul(n1, n2));
+
+            Console.ReadKey();
         }
     }
 }
