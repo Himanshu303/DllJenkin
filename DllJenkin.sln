@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllJenkin", "DllJenkin\DllJ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{4B9B58AA-9BD2-4B30-8983-45F131F51E7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMyMaths", "TestMyMaths\TestMyMaths.csproj", "{BC0F976C-DCE7-47C6-8ECB-A3A679FB75DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4B9B58AA-9BD2-4B30-8983-45F131F51E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B9B58AA-9BD2-4B30-8983-45F131F51E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B9B58AA-9BD2-4B30-8983-45F131F51E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0F976C-DCE7-47C6-8ECB-A3A679FB75DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0F976C-DCE7-47C6-8ECB-A3A679FB75DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0F976C-DCE7-47C6-8ECB-A3A679FB75DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0F976C-DCE7-47C6-8ECB-A3A679FB75DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
