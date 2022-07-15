@@ -8,13 +8,15 @@ namespace DllJenkin
         {
             int n1, n2;
 
-            n1 = 5;
-            n2 = 7;
+            Console.WriteLine("Enter number 1: ");
+            n1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter number 1: ");
+            n2 = Convert.ToInt32(Console.ReadLine());
             MyMaths m = new MyMaths();
 
-            Console.WriteLine(m.Add(n1, n2));
+            Console.WriteLine($"Addition of {n1} and {n2} is : {m.Add(n1, n2)}");
 
-            Console.WriteLine(m.Mul(n1, n2));
+            Console.WriteLine($"Multiplication of {n1} and {n2} is : {m.Mul(n1, n2)}");
 
             Console.ReadKey();
         }
